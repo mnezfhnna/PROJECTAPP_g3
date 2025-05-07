@@ -23,7 +23,9 @@ export default function UsersPage() {
       <h1 className="text-2xl font-bold mb-4">User List</h1>
       <ul className="space-y-2">
         {users.map(user => (
-          <li key={user.id} className="p-4 border rounded hover:bg-gray-100">
+           <li
+         key={user.id}
+         className="p-4 border rounded hover:bg-gray-100 transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer">
             <Link href={`/users/${user.id}`}>
               <div>
                 <p className="font-semibold">{user.name}</p>
