@@ -93,8 +93,8 @@ export default function MyPostPage() {
   }
 
   return (
-    <div className="p-6 max-w-4xl mx-auto space-y-6">
-      <h1 className="text-3xl font-bold mb-4">Welcome, {user.name}</h1>
+    <div className="flex flex-col items-center p-6 max-w-4xl mx-auto space-y-6">
+      <h1 className="text-3xl font-bold mb-4 text-center">Welcome, {user.name}</h1>  
 
       <section>
         <h2 className="text-2xl font-semibold mb-2">Your Posts</h2>
