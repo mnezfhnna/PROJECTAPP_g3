@@ -19,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #235284;
     --foreground: #000000;
   }
 }
@@ -28,8 +28,8 @@ body {
   padding-top: 20px;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  background: #FFC0CB; /* Fallback */
-  background: linear-gradient(90deg, #FFC0CB 0%, #FFB6C1 50%, #E6E6FA 100%);
+  background: #3982b8; /* Fallback */
+  background: linear-gradient(90deg, #235284 0%, #3982b8 50%, #4194cb 100%);
 }
 
 
