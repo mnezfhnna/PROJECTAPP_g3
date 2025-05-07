@@ -21,7 +21,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/60 backdrop-blur-md shadow-md z-10">
+    <header className="fixed top-0 left-0 w-full bg-[#4194cb] text-white backdrop-blur-md shadow-md z-10">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-center space-x-6">
         <Link href="/" className="text-gray-800 hover:text-blue-600">Home</Link>
         <Link href="/users" className="text-gray-800 hover:text-blue-600">Users</Link>
