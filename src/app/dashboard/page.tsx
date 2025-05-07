@@ -24,14 +24,23 @@ export default function DashboardPage() {
       .then(data => setCommentCount(data.length));
   }, []);
 
-  const chartOptions = {
+ const chartOptions = {
     chart: {
       id: 'stats-bar',
     },
     xaxis: {
       categories: ['Users', 'Posts', 'Comments'],
     },
-  };
+    plotOptions: {
+      bar: {
+        distributed: true, // Enables per-bar coloring
+      },
+    },
+    colors: ['#FF0000', '#00FF00', '#0000FF'], // Red, Green, Blue
+    dataLabels: {
+      enabled: true,
+    },
+  };  
 
   const chartSeries = [
     {
